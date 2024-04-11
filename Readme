@@ -1,0 +1,23 @@
+How to add jdk file to the github repo.
+
+$ git init
+
+$ git lfs install   => initialize the directory to work with large file
+
+$ git lfs track "*.tar.gz" => track files with extension .tar.gz
+
+$ git add .gitattributes
+
+$ git add . or git add file.tar.gz
+
+$ git commet -c "describe message"
+
+$ git remote add origin https://github.com/<username>/<repository>.git
+
+$ git push origin main or git push origin master
+
+==============================================================================================
+
+
+
+
